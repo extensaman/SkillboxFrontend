@@ -4,11 +4,64 @@
         <title>Module02.Task03</title>
     </head>
     <body>
+
         <form method="post">
             <h1>Отправка заявки на корференцию</h1>
+            
             <h2>Основные данные</h2>
             <label for="fio"><h3>* Фамилия. имя и отчество:</h3></label>
-            <input type="text" id="fio" name="" size="40">
+            <input type="text" id="fio" name="" size="40" title="ФИО" required="required">
+            
+            <label for="date"><h3>Дата рождения:</h3></label>
+            <input type="date" id="date" name="">
+            
+            <h3>Пол:</h3>
+            <input type="radio" id="men" name="sex">
+            <label for="men">мужской</label>
+            
+            <input type="radio" id="women" name="sex">
+            <label for="women">женский</label>
+            
+            <h2>Данные для создания личного кабинета</h2>
+            <label for="email"><h3>* Адрес электронной почты:</h3></label>
+            <input type="email" id="email" name="" size="40" required="required">
+            
+            <label for="password"><h3>* Пароль для создания личного кабинета:</h3></label>
+            <input type="password" id="password" name="" size="40" required="required">
+            
+            <label for="password-approve"><h3>* Подтверждение пароля:</h3></label>
+            <input type="password" id="password-approve" name="" size="40" required="required">
+            
+            <h2>Материалы для конференции</h2>
+            <label for="theme"><h3>* Тема доклада:</h3></label>
+            <input type="text" id="theme" name="" size="40" required="required">
+            
+            <label for="thesis"><h3>* Тезисы доклада (не более 1000 символов):</h3></label>
+            <textarea id="thesis" maxlength="1000" cols="40" rows="13" required="required"></textarea>
+
+            <label for="file"><h3>Файл презентации:</h3></label>
+            <input type="file" id="file" name="">
+
+            <h2>Дополнительные опции</h2>
+            <input type="checkbox" id="accom" name="options">
+            <label for="accom">Проживание в отеле</label>
+            <br>
+            
+            <input type="checkbox" id="breakfast" name="options" checked="checked">
+            <label for="breakfast">Завтрак</label>
+            <br>
+
+            <input type="checkbox" id="dinner" name="options">
+            <label for="dinner">Обед</label>
+            <br>
+
+            <input type="checkbox" id="supper" name="options">
+            <label for="supper">Ужин</label>
+            <br>
+            <hr>
+            <input type="submit" name="">
+            <hr>
+            <p>* Поля, отмеченные звездочкой, являются обязательными для заполнения</p>
         </form>
 
 
