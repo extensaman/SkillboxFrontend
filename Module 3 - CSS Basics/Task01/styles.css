@@ -41,7 +41,33 @@ body {
     left: 300px;
 }
 
-#menu {
+#cloud {
     position: absolute;
+    top: 50px;
+    left: 550px;
+}
+
+#temperature {
+    position: absolute;
+    top: 50px;
+    left: 590px;
+}
+
+#input-text {
+    position: absolute;
+    top: 50px;
+    left: 680px;
+    width: 280px;
+}
+
+.menu {
+    position: relative;
     top: 115px;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
 }
