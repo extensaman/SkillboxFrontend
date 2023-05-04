@@ -20,6 +20,10 @@ body {
     position: relative;
 }
 
+header {
+    height: 115px;;
+}
+
 #date-time {
     float: right;
 }
@@ -57,17 +61,38 @@ body {
     position: absolute;
     top: 50px;
     left: 680px;
-    width: 280px;
+    width: 260px;
+    border: 0px;
+    background-color: rgb(196, 212, 212);
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.menu {
-    position: relative;
-    top: 115px;
-    padding: 0 8px;
-    display: inline-block;
+nav {
+    height: 70px;
 }
 
-.menu a {
+nav a {
     color: black;
     text-decoration: none;
+}
+
+#left {
+    background-color: red;
+    width: 250px;
+    margin-right: 20px;
+    float: left;
+}
+
+#center {
+    background-color: green;
+    margin-right: 20px;
+    width: 420px;
+    float: left;
+}
+
+aside {
+    background-color: blue;
+    width: 250px;
+    float: right;
 }
