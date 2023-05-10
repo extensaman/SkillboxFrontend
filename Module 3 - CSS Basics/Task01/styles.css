@@ -92,7 +92,34 @@ nav a {
 }
 
 aside {
-    background-color: blue;
     width: 250px;
     float: right;
+}
+
+aside img {
+    margin-bottom: 20px;
+}
+
+main {
+    overflow-y: hidden;
+}
+
+#special-news {
+    margin-top: 20px;
+}
+
+.table {
+    display: table;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
 }
