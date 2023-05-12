@@ -8,7 +8,7 @@ body {
 h2 {
     font-size: 20px;
     padding: 27px 18px;
-    margin: 0 0 34px;
+    margin: 0 0 20px 0; 
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -118,6 +118,48 @@ main {
     background-color: #f9f9f9;
     background-image: url('img/central-bg-top.png');
     background-repeat: repeat-x;
+}
+.news {
+    padding: 0 20px;
+    margin-bottom: 27px;
+    font-size: 14px;
+}
+.news-text {
+    margin-bottom: 20px;
+}
+
+.news-props {
+    font-size: 12px;
+    position: relative;
+    
+}
+.news-props a {
+    color: #919191;
+    text-decoration: none;
+}
+
+.news-props a:hover {
+    text-decoration: underline;
+}
+
+.news-time {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    padding-left: 15px;
+    background-image: url('img/icon-time.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.news-comments-count {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    padding-left: 15px;
+    background-image: url('img/icon-comments.png');
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #special-news {
